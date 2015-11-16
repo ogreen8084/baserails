@@ -23,6 +23,7 @@ class ReviewsController < ApplicationController
 
     @review.user_id = current_user.id
     @review.restaurant_id = @restaurant.id
+    
     respond_to do |format|
       if @review.save
         format.html { redirect_to root_path, notice: 'Review was successfully created.' }
