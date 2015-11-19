@@ -24,6 +24,13 @@
 </p>
    <%= link_to "Write a Review", new_restaurant_review_path(@restaurant), class: "btn btn-primary" %>
   </div>
+  <iframe
+    width="450"
+    height="250"
+    frameborder="0" style="border:0"  
+    src="https://www.google.com/maps/embed/v1/search?key=API_KEY&q=record+stores+in+Seattle">
+  </iframe> 
+  </div>
   <div class="col-md-9">
  <% if @reviews.blank? %>
  <h3>No reviews yet, Be the first to write one!</h3>
