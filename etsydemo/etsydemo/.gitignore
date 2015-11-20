@@ -16,5 +16,8 @@
 !/log/.keep
 /tmp
 
+#Ignore files uploaded on localhost
+/public/system
+#any images on localhost don't get sent to github
 # Ignore application configuration
 /config/application.yml
