@@ -46,3 +46,10 @@ body {
 		font-size: 18px;
 	}
 }
+
+.jumbotron {
+	background-image: url('jumbotron.jpg');
+	color: red;
+	h1, h2 {font-family: guardian-egyppt, georgia, serif;}
+	h1, h2 {text-align: right;}
+}
